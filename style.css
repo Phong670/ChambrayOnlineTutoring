@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Archivo";
+  src: url("./font/archivo.ttf") format("truetype");
+}
+*{
+  font-family:Archivo ;
+}
 *,
 ul {
   margin: 0;
@@ -231,6 +238,53 @@ footer p {
 .footer-bottom .contact a:hover {
   text-decoration: underline;
   color: #fff;
+}
+#container-featured-program{
+  background-color: #3D56B2;
+  color: white;
+  padding-bottom: 100px;
+  min-height: fit-content;
+}
+#container-featured-program .container .header{
+  text-align: center;
+  padding: 50px 0;
+}
+#container-featured-program .container .header .title{
+  font-size: 42px;
+  font-weight: 900;
+  font-family: Archivo;
+}
+#container-featured-program .box-items {
+  text-align: center;
+}
+#container-featured-program .box-items .item .name-feature{
+ font-size: 24px;
+ font-weight: 500;
+ padding-top: 1.5rem;
+}
+#container-featured-program .box-items .item .auth-and-time{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 30px 0;
+ gap: 5px;
+}
+#container-featured-program .button-view-all button{
+  color: #000;
+  border-color: #FFF;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-style: solid;
+  border-width: 1px;
+}
+#container-featured-program .button-view-all button:hover{
+  opacity: 0.8;
 }
 /* main */
 .main-top {
